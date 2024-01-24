@@ -1,0 +1,58 @@
+---
+# https://docs.ansible.com/ansible/latest/dev_guide/collections_galaxy_meta.html
+
+# NOTE: The namespace of the collection.
+namespace: "daleroux"
+
+# NOTE: The name of the collection.
+name: "hello_tam_blog"
+
+# NOTE: The version of the collection.
+version: "1.0.0"
+
+# The path to the Markdown (.md) readme file.
+readme: README.md
+
+# NOTE: A list of the collection's content authors.
+authors:
+  - "d@nleroux.ca"
+
+# NOTE: A short summary description of the collection.
+description: "This collection contains a role that will print a message similar to hello world"
+
+# NOTE: Either a single license or a list of licenses for content inside of a collection.
+# license:
+#   - "MIT"
+
+# NOTE: The path to the license file for the collection.
+license_file: "LICENSE"
+
+# NOTE: A list of tags you want to associate with the collection for indexing/searching.
+tags:
+  - "application"
+
+# NOTE: The list of collection dependencies this collection requires to be installed for it to be usable.
+# dependencies: {}
+
+# NOTE: The URL of the originating SCM repository
+repository: "https://github.com/daleroux/ansible-collection-hello_tam_blog"
+
+# NOTE: The URL to any online docs
+# documentation: "https://github.com/daleroux/ansible-collection-hello_tam_blog/wiki"
+
+# NOTE: The URL to the homepage of the collection/project
+# homepage: "https://github.com/daleroux/ansible-collection-hello_tam_blog"
+
+# NOTE: The URL to the collection issue tracker
+issues: "https://github.com/daleroux/ansible-collection-hello_tam_blog/issues"
+
+# NOTE: The build ignore list that should not be included in the build artifact.
+build_ignore:
+  - .gitignore
+  - .github
+  - '*/.gitkeep'
+  - .pre-commit-config.yaml
+  - .vscode
+
+# A dict controlling use of manifest directives used in building the collection artifact.
+# manifest: null
