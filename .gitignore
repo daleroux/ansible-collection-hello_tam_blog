@@ -1,5 +1,6 @@
 # See: https://github.com/ansible-collections/collection_template/blob/main/.gitignore
 
+ansible.cfg
 /tests/output/
 /changelogs/.plugin-cache.yaml
 

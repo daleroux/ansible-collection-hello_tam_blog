@@ -1,4 +1,4 @@
 ---
 - name: Print debug message
   ansible.builtin.debug:
-    msg: Helloo TAM Blog!
+    msg: Hello TAM Blog!
