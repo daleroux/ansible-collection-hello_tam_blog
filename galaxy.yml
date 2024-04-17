@@ -8,7 +8,7 @@ namespace: "daleroux"
 name: "hello_tam_blog"
 
 # NOTE: The version of the collection.
-version: "1.0.0"
+version: "1.0.1"
 
 # The path to the Markdown (.md) readme file.
 readme: README.md
